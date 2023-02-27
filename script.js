@@ -5,7 +5,7 @@ let gameover= new Audio('gameover.mp3');
 let turn ='X';
 let isgameover = false;
 let reset=document.getElementById('reset');
-// let tie=0;
+// this is good
 
 const changeTurn=()=>{
     return turn === 'X'?'0':'X' ;
